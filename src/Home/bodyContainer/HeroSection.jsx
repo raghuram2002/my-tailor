@@ -29,12 +29,12 @@ const HeroSection = () => {
 
   // Category data
   const categories = [
-    { name: "BLOUSE", image: blouseImg, route: "/blouse" },
-    { name: "KURTI", image: kurtiImg, route: "/kurti" },
-    { name: "SALWAR KAMEEZ", image: salwarImg, route: "/salwar" },
-    { name: "LEHENGA", image: lehengaImg, route: "/lehenga" },
-    { name: "TOPS", image: topsImg, route: "/tops" },
-    { name: "SKIRT", image: skirtImg, route: "/skirt" },
+    { name: "BLOUSE", image: blouseImg, route: "/women/blouse" },
+    { name: "KURTI", image: kurtiImg, route: "/women/kurtis" },
+    { name: "SALWAR KAMEEZ", image: salwarImg, route: "/women/salwar" },
+    { name: "LEHENGA", image: lehengaImg, route: "/women/lehenga" },
+    { name: "TOPS", image: topsImg, route: "/women/tops" },
+    { name: "SKIRT", image: skirtImg, route: "/women/skirt" },
   ];
 
   return (

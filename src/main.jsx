@@ -2,9 +2,12 @@ import './index.css'
 import App from './App.jsx'
 import ReactDom from "react-dom/client"
 import { BrowserRouter } from "react-router-dom";
+import { CartProvider } from "./context/CartContext";
 
 ReactDom.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <App />
+    <CartProvider>
+      <App />
+    </CartProvider>
   </BrowserRouter>,
 )
